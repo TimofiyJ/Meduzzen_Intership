@@ -1,16 +1,16 @@
 import gradio as gr
 
 
-def your_function(input_text):
-    output_text = f"You entered: {input_text}"
-    return output_text
+def define_class(image):
+    return image
 
 
-interface = gr.Interface(
-    fn=your_function,
-    inputs=gr.Textbox(),
-    outputs=gr.Textbox(),
+demo = gr.Interface(
+    define_class,
+    gr.Image(type="pil"),
+    "text",
     live=True,
 )
 
-interface.launch()
+if __name__ == "__main__":
+    demo.launch()
