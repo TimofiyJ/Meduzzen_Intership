@@ -33,6 +33,9 @@
 </p>
 I would get the position of the postoffice box by applying the mask created with color extraction and minimum area rectangle. (or i could just use homography for the index to get the front view of the box)
 <br>During the image preprocessing stage I would consider to resize and reduce file size if the image would be too big.<br>Since I don't have a large dataset to experiment with I won't consider solution that requires deep learning. I believe that having the given data it is more useful to focus on getting the frontal view of the box, extract features (horizontal and vertical lines using kernels, HOG + SVM, etc.) or identify single cells having their sizes, borders on the picture and how many pixels are in 1 cm.
+<br>
+<br>
+There is also a way to classify through "H" symbol. I need to find "H" on the picture and that would help me to locate the postoffice box. "H" symbol always has the same size so that would be easy to extract how many pixels in one cantimeter.
 
 ## 6.Metadata:
 
@@ -51,7 +54,7 @@ I would get the position of the postoffice box by applying the mask created with
 ## 8. Main framework:
 
 <br> The main tech stack would be based on recommendations and my personal experience:
-<br> Python 3.11, JSON, Paydantic, Gradio, FastAPI, TensorFlow, OpenCv, Numpy, Pandas.
+<br> Python 3.11, JSON, Paydantic, Gradio, FastAPI, TensorFlow, OpenCv, Numpy, Pandas, EasyOCR, matplotlib, os, pytessaract, PIL
 
 ## 9. Plan of the project:
 
