@@ -54,7 +54,7 @@ There is also a way to classify through "H" symbol. I need to find "H" on the pi
 ## 8. Main framework:
 
 <br> The main tech stack would be based on recommendations and my personal experience:
-<br> Python 3.11, JSON, Paydantic, Gradio, FastAPI, TensorFlow, OpenCv, Numpy, Pandas, EasyOCR, matplotlib, os, pytessaract, PIL
+<br> Python 3.11, JSON, Paydantic, Gradio, FastAPI, TensorFlow, cv2, Numpy, Pandas, EasyOCR, matplotlib, os, pytessaract, PIL
 
 ## 9. Plan of the project:
 
