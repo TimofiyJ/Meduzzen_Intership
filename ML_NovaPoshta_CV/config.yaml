@@ -1,7 +1,7 @@
 
-path: C:/Users/Tymof/OneDrive/Desktop/education/Practice/Meduzzen_Intership/ML_NovaPoshta_CV/data/data_yolo # dataset root dir
-train: images/train # train images (relative to 'path')
-val: images/train # val images (relative to 'path')
+path: C:\Users\Tymof\OneDrive\Desktop\education\Practice\Meduzzen_Intership\ML_NovaPoshta_CV\data\data_yolo # dataset root dir
+train: images\train # train images (relative to 'path')
+val: images\train # val images (relative to 'path')
 
 # Classes
 names:
