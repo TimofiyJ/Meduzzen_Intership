@@ -1,8 +1,13 @@
-
 path: C:\Users\Tymof\OneDrive\Desktop\education\Practice\Meduzzen_Intership\ML_NovaPoshta_CV\data\data_yolo # dataset root dir
 train: images\train # train images (relative to 'path')
-val: images\train # val images (relative to 'path')
+val: images\val # val images (relative to 'path')
 
 # Classes
 names:
-  0: locker
+  0: Box
+  1: Container
+  2: Desk
+  3: Door
+  4: Poster
+  5: Whiteboard
+  6: locker
